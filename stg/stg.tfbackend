@@ -1,0 +1,4 @@
+# S3 bucket to hold terraform state for all nonprod stack
+bucket         = "aws-rachio-nonprod-tfstate"
+key            = "stg/terraform.tfstate"
+region         = "eu-west-2"
